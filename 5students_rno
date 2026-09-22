@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int rno[5];
+ int bsearch_rno;
+
+  cout<<"Enter 5 rno:\n";
+
+  for(int i=0;i<5;i++)
+{ 
+     cin>>rno[i];
+  }
+        cout<<"\n Enter rno to bsearch:";
+        cin>>bsearch_rno;
+
+        for(int i=0;i<5;i++)
+        {
+           if(rno[i]==bsearch_rno)
+        {   
+           cout<<"rno  found ";
+            if(!found) {cout<<"rno not found";}
+}
+         return 0;
+ }
+  }
+
+
+
+}
+
