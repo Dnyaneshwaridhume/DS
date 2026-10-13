@@ -2,7 +2,6 @@
 #include <queue>
 using namespace std;
 
-// Global queue for bank tokens
 queue<int> tokenQueue;
 int tokenCounter = 101; // Tokens 101 se start honge
 
